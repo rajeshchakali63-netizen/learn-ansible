@@ -1,0 +1,36 @@
+- firstname: Rajesh
+  lastname: Chakali
+  dob: 01-01-2001
+  # - is for list
+  addresses: 
+    - type: permanent
+      doorno: 2-258
+      streetname: vidya nagar
+      city: kurnool
+    - type: permanent
+      doorno: 2-258
+      streetname: vidya nagar
+      city: kurnool
+  Skill: 
+    os: Linux
+    IDE: vsconde
+    CM: Ansible
+
+- firstname: Raju
+  lastname: Chakali
+  dob: 01-01-2002
+  # - is for list
+  addresses: 
+    - type: permanent
+      doorno: 2-258
+      streetname: vidya nagar
+      city: kurnool
+    - type: permanent
+      doorno: 2-258
+      streetname: vidya nagar
+      city: kurnool
+  Skill: 
+    os: Linux
+    IDE: vsconde
+    CM: Ansible 
+
