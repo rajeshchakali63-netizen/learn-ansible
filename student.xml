@@ -1,0 +1,15 @@
+<student>
+    <firstname>Rajesh</firstname>
+    <secondname>Chakali</secondname>
+    <dob>20-08-2002</dob>
+    <address type="perminent">
+        <doorno>2-5645</doorno>
+        <street>vidya nagar</street>
+        <city>Kurnool</city>
+    </address>
+    <address type="temporary">
+        <doorno>2-5645</doorno>
+        <street>vidya nagar</street>
+        <city>Kurnool</city>
+    </address>
+</student>

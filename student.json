@@ -1,0 +1,26 @@
+{
+
+    "firstname": "Rajesh",
+    "lastname": "chakali",
+    "dob": "01-01-2001",
+    "addresses": [
+        {
+            "type": "perminent",
+            "doorno": "45-545",
+            "streetname": "vidya Nagar",
+            "city": "Kurnool"
+        },
+        {
+            "type": "temporary",
+            "doorno": "45-545",
+            "streetname": "vidya Nagar",
+            "city": "Kurnool"
+        }
+    ],
+    "skills": {
+        "os": "linux",
+        "IDE": "vscode",
+        "CM": "ansible"
+
+    }      
+}
