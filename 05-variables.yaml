@@ -6,7 +6,7 @@
    trainer: sivakumar reddy m
    duration: 150 hr
 
-- tasks:
-    name: print variables
-    debug:
-      msg: "Hi, I am learning {{course}} from {{trainer}} duration is {{duration}}"
+  tasks:
+      - name: Print Variables
+        debug:
+          msg: "Hi, I am learning {{ course }} from {{ trainer }}. Duration is {{ duration }}."
