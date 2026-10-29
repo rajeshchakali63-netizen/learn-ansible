@@ -1,6 +1,6 @@
 - name: demo on variables
   hosts: localhost
-  connection: local
+  connection: localhost
   vars: 
    course: DevOps with AWS
    trainer: sivakumar reddy m
