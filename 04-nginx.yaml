@@ -1,15 +1,16 @@
-- name: install nginx
+
+- name: Install Nginx
   hosts: frontend
   become: yes
-  tasks:
-  - name: install nginx
-    package:
-    - name: nginx
-      state: present
 
-  - name: start nginxf
-    service:
-      name: nginx
-      state: started
-      enanbled: true
-      
+  tasks:
+    - name: Install Nginx
+      package:
+        name: nginx
+        state: present
+
+    - name: Start and enable Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
