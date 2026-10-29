@@ -4,7 +4,7 @@
   tasks: 
     - name: PLAY 1 and TASK-1
       debug:
-        msg: "Helll from play-1 task-1
+        msg: "Helll from play-1 task-1"
 
     - name: PLAY-1AND TASK-2
       debug:
@@ -12,7 +12,7 @@
 
     - name: PLAY2 and TASK-1
       debug:
-        msg: "Helll from play-2 ask-1
+        msg: "Helll from play-2 ask-1"
 
     - name: PLAY-2 AND TASK-2
       debug:
