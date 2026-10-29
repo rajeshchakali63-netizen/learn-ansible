@@ -9,3 +9,15 @@
     - name: PLAY-1AND TASK-2
       debug:
         msg: "Hello from play-2 task-2"
+  
+- name: play-2
+  hosts: localhost
+  connection: localhost
+  tasks: 
+    - name: PLAY 2 and TASK-1
+      debug:
+        msg: "Helll from play-1 task-1"
+
+    - name: PLAY-2 and TASK-2
+      debug:
+        msg: "Hello from play-2 task-2"
