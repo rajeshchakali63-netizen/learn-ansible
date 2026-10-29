@@ -1,0 +1,12 @@
+- name: demo on variables
+  hosts: localhost
+  connection: local
+  vars: 
+   course: DevOps with AWS
+   trainer: sivakumar reddy m
+   duration: 150 hr
+
+- tasks:
+    name: print variables
+    debug:
+      msg: "Hi, I am learning {{course}} from {{trainer}} duration is {{duration}}"
