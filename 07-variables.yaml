@@ -1,10 +1,10 @@
 - name: Variables from Files
   hosts: localhost
-  connection: local
+  connection: localhost
 
   vars_files:
     - course.yaml
-
+    
   tasks:
     - name: Print Course Information
       debug:
