@@ -1,6 +1,6 @@
 - name: demo on filters
   hosts: localhost
-  connecion: local
+  connection: local
   vars:
     topics: Linux, Shell, Ansible, Terraform, Docker
     names:
@@ -29,4 +29,3 @@
   - name: convert string to int
     debug:
       msg: "Duration: {{ duration | int }}"
-      
