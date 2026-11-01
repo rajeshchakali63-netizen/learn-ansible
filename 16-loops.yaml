@@ -1,0 +1,11 @@
+- name: demo on loops
+  hosts: localhost
+  connection: localhost
+  tasks:
+  - name: print names
+    debug:
+      msg: "Hi {{ item }}" # item is reserved keyword
+    loop:
+    - rajesh
+    - naresh
+    - suresh
