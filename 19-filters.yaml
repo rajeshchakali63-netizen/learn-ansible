@@ -24,7 +24,7 @@
 
   - name: convert to lowercase
     debug:
-    msg: " Topic: {{ topic | lower }}"
+      msg: " Topic: {{ topic | lower }}"
 
   - name: convert string to int
     debug:
