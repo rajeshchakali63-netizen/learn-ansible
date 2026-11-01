@@ -1,6 +1,7 @@
 - name: install packages
   hosts: localhost
   connection: local
+  become: yes
   vars:
     packages:
     - { name: 'nginx', state: 'absent' }
